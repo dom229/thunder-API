@@ -1,0 +1,27 @@
+{
+  "name": "thunder-api",
+  "version": "1.0.0",
+  "description": "rest api clint",
+  "main": "/api/thunder.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dom229/thunder-API.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "edgex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dom229/thunder-API/issues"
+  },
+  "homepage": "https://github.com/dom229/thunder-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}

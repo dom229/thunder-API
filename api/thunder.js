@@ -14,6 +14,9 @@ db(process.env.URI,Options)
 app.use(express.json());
 app.use(xmlparser({explicitArray: false}))
 app.use(express.urlencoded({ extended: true }));
+app.get("/", (req, res) => {
+    res.send("Hello World");
+});
 app.use('/api', Api);
 
 
